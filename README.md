@@ -21,19 +21,3 @@ This is a full-stack, AI-powered forecasting platform that helps businesses anal
 **AI Models**: Prophet, LSTM (Keras)  
 **Visualization**: Plotly, Matplotlib, Seaborn  
 **Others**: SQLAlchemy, Pandas, NumPy, Scikit-Learn, Docker-ready
-
-## 📦 Setup Instructions
-
-```bash
-git clone https://github.com/yourusername/forecasting-app
-cd forecasting-app
-
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate   # (or venv\Scripts\activate on Windows)
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-python main.py
