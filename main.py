@@ -171,6 +171,8 @@ def get_connection():
     )
 
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  
 
 
 app = Flask(__name__)
@@ -1469,4 +1471,5 @@ def forecast(table_name):
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
+
     
