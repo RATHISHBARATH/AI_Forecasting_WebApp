@@ -1,23 +1,53 @@
-blinker
-click
+# Core Web Framework
 flask
 flask-cors
 flask-mysqldb
+flask_sqlalchemy
 gunicorn
+waitress
+
+# Machine Learning & Forecasting
+scikit-learn
+prophet
+statsmodels
+tensorflow
+torch
+
+# Data Handling & Visualization
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+
+# Database
+pymysql
+mysqlclient
+mysql-connector-python
+sqlalchemy
+
+# Utilities & Other Dependencies
+python-dateutil
+dateparser
+python-docx
+werkzeug
+blinker
 itsdangerous
 jinja2
-joblib
+click
 markupsafe
-mysqlclient
-numpy
-packaging
-pandas
-python-dateutil
-pytz
-scikit-learn
 scipy
-seaborn
-six
 threadpoolctl
+six
+packaging
 tzdata
-werkzeug
+
+# Apache Spark
+pyspark
+
+# Optional (GUI - if running locally, not needed for server deployment)
+tk
+
+# Suppress Warnings (standard lib but kept for clarity)
+# warnings
+
